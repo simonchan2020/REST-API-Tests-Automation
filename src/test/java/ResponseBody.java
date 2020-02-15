@@ -1,6 +1,5 @@
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.util.EntityUtils;
-import org.json.JSONException;
 import org.json.JSONObject;
 import org.testng.annotations.Test;
 import static entities.User.*;
@@ -18,7 +17,7 @@ public class ResponseBody extends BaseTest {
         String jsonBody = EntityUtils.toString(response.getEntity());
         JSONObject jsonObject = new JSONObject(jsonBody);
 
-        String loginValue = (String) getValueFor(jsonObject, LOGIN);
+        String loginValue = (String) ResponseUtilities.getValueFor(jsonObject, LOGIN);
         assertEquals(loginValue, "simonchan2020");
     }
 
@@ -32,7 +31,7 @@ public class ResponseBody extends BaseTest {
         String jsonBody = EntityUtils.toString(response.getEntity());
         JSONObject jsonObject = new JSONObject(jsonBody);
 
-        Integer result = (Integer) getValueFor(jsonObject, ID);
+        Integer result = (Integer) ResponseUtilities.getValueFor(jsonObject, ID);
         assertEquals(result, Integer.valueOf(57819496));
     }
 
@@ -46,11 +45,7 @@ public class ResponseBody extends BaseTest {
         String jsonBody = EntityUtils.toString(response.getEntity());
         JSONObject jsonObject = new JSONObject(jsonBody);
 
-        String result = (String) getValueFor(jsonObject, TYPE);
+        String result = (String) ResponseUtilities.getValueFor(jsonObject, TYPE);
         assertEquals(result, "User");
-    }
-
-    private Object getValueFor(JSONObject jsonObject, String key) throws JSONException {
-        return jsonObject.get(key);
     }
 }

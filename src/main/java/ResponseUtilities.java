@@ -1,5 +1,12 @@
+import com.fasterxml.jackson.databind.DeserializationFeature;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import entities.User;
 import org.apache.http.Header;
 import org.apache.http.client.methods.CloseableHttpResponse;
+import org.apache.http.util.EntityUtils;
+import org.json.JSONException;
+import org.json.JSONObject;
+import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
 
@@ -62,5 +69,29 @@ public class ResponseUtilities {
 
         return httpHeaders.stream()
                 .anyMatch(header -> header.getName().equalsIgnoreCase(headerName));
+    }
+
+    public static User unmarshall(CloseableHttpResponse response, Class<User> clazz) throws IOException {
+
+        //get JSON body
+        String jsonBody = EntityUtils.toString(response.getEntity());
+
+        return new ObjectMapper()
+                .configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false)
+                .readValue(jsonBody, clazz);
+    }
+
+    public static <T> T unmarshallGeneric(CloseableHttpResponse response, Class<T> clazz) throws IOException {
+
+        //get JSON body
+        String jsonBody = EntityUtils.toString(response.getEntity());
+
+        return new ObjectMapper()
+                .configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false)
+                .readValue(jsonBody, clazz);
+    }
+
+    public static Object getValueFor(JSONObject jsonObject, String key) throws JSONException {
+        return jsonObject.get(key);
     }
 }

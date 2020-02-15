@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c65a533-6884-4017-9e3e-18ff56bed24a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/entities/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ResponseBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entities/NotFound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ResponseBodyWithJackson.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Status200.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Status200.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Status401.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Status401.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Status404.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Status404.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ResponseUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ResponseUtilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ResponseBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ResponseBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ResponseUtilities.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ResponseUtilities.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/User.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,11 +53,22 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunManager" selected="TestNG.ResponseBody.returnsCorrectLogin">
-    <configuration name="ResponseBody.returnsCorrectEmail" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ResponseBodyWithJackson" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WebApiAutomation" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ResponseBody" />
-      <option name="METHOD_NAME" value="returnsCorrectEmail" />
+      <option name="MAIN_CLASS_NAME" value="ResponseBodyWithJackson" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResponseBodyWithJackson.notFoundMessageIsCorrect" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebApiAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ResponseBodyWithJackson" />
+      <option name="METHOD_NAME" value="notFoundMessageIsCorrect" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -64,11 +76,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResponseBody.returnsCorrectID" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ResponseBodyWithJackson.returnsCorrectID" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WebApiAutomation" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ResponseBody" />
+      <option name="MAIN_CLASS_NAME" value="ResponseBodyWithJackson" />
       <option name="METHOD_NAME" value="returnsCorrectID" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResponseBodyWithJackson.returnsCorrectLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebApiAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ResponseBodyWithJackson" />
+      <option name="METHOD_NAME" value="returnsCorrectLogin" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -88,37 +112,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResponseBody.returnsCorrectType" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="WebApiAutomation" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ResponseBody" />
-      <option name="METHOD_NAME" value="returnsCorrectType" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Status200.baseUrlReturns200" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="WebApiAutomation" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Status200" />
-      <option name="METHOD_NAME" value="baseUrlReturns200" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.ResponseBody.returnsCorrectLogin" />
-        <item itemvalue="TestNG.ResponseBody.returnsCorrectEmail" />
-        <item itemvalue="TestNG.ResponseBody.returnsCorrectType" />
-        <item itemvalue="TestNG.ResponseBody.returnsCorrectID" />
-        <item itemvalue="TestNG.Status200.baseUrlReturns200" />
+        <item itemvalue="TestNG.ResponseBodyWithJackson" />
+        <item itemvalue="TestNG.ResponseBodyWithJackson.notFoundMessageIsCorrect" />
+        <item itemvalue="TestNG.ResponseBodyWithJackson.returnsCorrectID" />
+        <item itemvalue="TestNG.ResponseBodyWithJackson.returnsCorrectLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -145,26 +145,26 @@
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state width="468" height="466" key="DebuggerActiveHint/0.23.1440.821@0.23.1440.821" timestamp="1581782309041" />
-    <state width="1440" height="222" key="GridCell.Tab.0.bottom" timestamp="1581802899055">
+    <state width="1440" height="222" key="GridCell.Tab.0.bottom" timestamp="1581806557732">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state width="1440" height="281" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581787027256" />
-    <state width="1440" height="222" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1581802899055" />
-    <state width="1440" height="222" key="GridCell.Tab.0.center" timestamp="1581802899053">
+    <state width="1440" height="222" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1581806557732" />
+    <state width="1440" height="222" key="GridCell.Tab.0.center" timestamp="1581806557731">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state width="1440" height="281" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581787027254" />
-    <state width="1440" height="222" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1581802899053" />
-    <state width="1440" height="222" key="GridCell.Tab.0.left" timestamp="1581802899053">
+    <state width="1440" height="222" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1581806557731" />
+    <state width="1440" height="222" key="GridCell.Tab.0.left" timestamp="1581806557730">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state width="1440" height="281" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581787027253" />
-    <state width="1440" height="222" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1581802899053" />
-    <state width="1440" height="222" key="GridCell.Tab.0.right" timestamp="1581802899054">
+    <state width="1440" height="222" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1581806557730" />
+    <state width="1440" height="222" key="GridCell.Tab.0.right" timestamp="1581806557732">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state width="1440" height="281" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581787027255" />
-    <state width="1440" height="222" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1581802899054" />
+    <state width="1440" height="222" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1581806557732" />
     <state width="1440" height="403" key="GridCell.Tab.1.bottom" timestamp="1581801174433">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
