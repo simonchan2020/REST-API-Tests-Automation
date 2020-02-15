@@ -44,7 +44,18 @@ public class ResponseHeaders extends BaseTest {
         httpGet.setConfig((localConfig));
         response = httpClient.execute(httpGet);
 
-        String headerValue = ResponseUtilities.getHeader(response, "Server");
+        String headerValue = ResponseUtilities.getHeaderInLambdasWay(response, "Server");
         assertEquals(headerValue, "GitHub.com");
+    }
+
+    @Test
+    public void eTagIsNotNull() throws IOException {
+        HttpGet httpGet = new HttpGet(BASE_ENDPOINT);
+        httpGet.setConfig((localConfig));
+        response = httpClient.execute(httpGet);
+
+        String headerValue = ResponseUtilities.getHeader(response, "ETag");
+        //assertEquals(headerValue, "GitHub.com");
+        assertTrue(headerValue != null);
     }
 }

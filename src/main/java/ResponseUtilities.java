@@ -5,6 +5,12 @@ import java.util.List;
 
 public class ResponseUtilities {
 
+    /**
+     * Use for loop to iterates headers list to get header value
+     * @param response
+     * @param headerName
+     * @return
+     */
     public static String getHeader(CloseableHttpResponse response, String headerName) {
 
         //Get All headers
@@ -27,5 +33,24 @@ public class ResponseUtilities {
 
         //Return the header
         return returnHeader;
+    }
+
+    /**
+     * Use Lambdas way to get header value
+     * @param response
+     * @param headerName
+     * @return
+     */
+    public static String getHeaderInLambdasWay(CloseableHttpResponse response, String headerName) {
+
+        //Get All headers
+        Header[] headers = response.getAllHeaders();
+        List<Header> httpHeaders = Arrays.asList(headers);
+
+        Header matchedHeader = httpHeaders.stream()
+                                .filter(header -> headerName.equalsIgnoreCase(header.getName()))
+                                .findFirst().orElseThrow(() ->  new RuntimeException("Didn't find the header "));
+
+        return matchedHeader.getValue();
     }
 }
