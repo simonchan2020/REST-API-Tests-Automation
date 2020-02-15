@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3c65a533-6884-4017-9e3e-18ff56bed24a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XpE41yoKT1GailUWg26S3oc5RH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="TestNG.ResponseHeaders.serverIsGitHub">
+    <configuration name="ResponseHeaders" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebApiAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ResponseHeaders" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResponseHeaders.contentTypeIsJSON" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebApiAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ResponseHeaders" />
+      <option name="METHOD_NAME" value="contentTypeIsJSON" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResponseHeaders.serverIsGitHub" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebApiAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ResponseHeaders" />
+      <option name="METHOD_NAME" value="serverIsGitHub" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Status200" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebApiAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Status200" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Status200.baseUrlReturns200" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebApiAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Status200" />
+      <option name="METHOD_NAME" value="baseUrlReturns200" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.ResponseHeaders.serverIsGitHub" />
+        <item itemvalue="TestNG.ResponseHeaders" />
+        <item itemvalue="TestNG.ResponseHeaders.contentTypeIsJSON" />
+        <item itemvalue="TestNG.Status200" />
+        <item itemvalue="TestNG.Status200.baseUrlReturns200" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3c65a533-6884-4017-9e3e-18ff56bed24a" name="Default Changelist" comment="" />
+      <created>1581734440406</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581734440406</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="100" y="114" width="1240" height="639" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1581782727899">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1440.900@0.0.1440.900" timestamp="1581773625982" />
+    <state x="100" y="114" width="1240" height="639" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.821@0.23.1440.821" timestamp="1581782727899" />
+    <state width="468" height="466" key="DebuggerActiveHint" timestamp="1581782309041">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="468" height="466" key="DebuggerActiveHint/0.23.1440.821@0.23.1440.821" timestamp="1581782309041" />
+    <state width="1440" height="281" key="GridCell.Tab.0.bottom" timestamp="1581784348828">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="281" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581784348828" />
+    <state width="1440" height="245" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1581783957500" />
+    <state width="1440" height="281" key="GridCell.Tab.0.center" timestamp="1581784348825">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="281" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581784348825" />
+    <state width="1440" height="245" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1581783957499" />
+    <state width="1440" height="281" key="GridCell.Tab.0.left" timestamp="1581784348824">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="281" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581784348824" />
+    <state width="1440" height="245" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1581783957498" />
+    <state width="1440" height="281" key="GridCell.Tab.0.right" timestamp="1581784348826">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="281" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581784348826" />
+    <state width="1440" height="245" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1581783957499" />
+    <state width="1440" height="311" key="GridCell.Tab.1.bottom" timestamp="1581784136765">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="311" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581784136765" />
+    <state width="1440" height="271" key="GridCell.Tab.1.bottom/0.23.1440.821@0.23.1440.821" timestamp="1581782620006" />
+    <state width="1440" height="311" key="GridCell.Tab.1.center" timestamp="1581784136763">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="311" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1581784136763" />
+    <state width="1440" height="271" key="GridCell.Tab.1.center/0.23.1440.821@0.23.1440.821" timestamp="1581782620004" />
+    <state width="1440" height="311" key="GridCell.Tab.1.left" timestamp="1581784136762">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="311" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1581784136762" />
+    <state width="1440" height="271" key="GridCell.Tab.1.left/0.23.1440.821@0.23.1440.821" timestamp="1581782620004" />
+    <state width="1440" height="311" key="GridCell.Tab.1.right" timestamp="1581784136764">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="311" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1581784136764" />
+    <state width="1440" height="271" key="GridCell.Tab.1.right/0.23.1440.821@0.23.1440.821" timestamp="1581782620005" />
+    <state x="258" y="112" key="Maven.ArtifactSearchDialog" timestamp="1581735497995">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="258" y="112" key="Maven.ArtifactSearchDialog/0.0.1440.900@0.0.1440.900" timestamp="1581735497995" />
+    <state x="208" y="31" key="SettingsEditor" timestamp="1581735807333">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="208" y="31" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1581735807333" />
+    <state x="432" y="350" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1581735301294">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="432" y="350" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1440.900@0.0.1440.900" timestamp="1581735301294" />
+  </component>
+</project>
