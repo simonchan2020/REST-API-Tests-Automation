@@ -1,4 +1,5 @@
 import entities.NotFound;
+import entities.RateLimit;
 import entities.User;
 import org.apache.http.client.methods.HttpGet;
 import org.testng.annotations.Test;
@@ -39,5 +40,31 @@ public class ResponseBodyWithJackson extends BaseTest {
         assertEquals(notFoundMessage.getMessage(), "Not Found");
     }
 
+    /* Sample JSON response body
+      {
+        "resources": {
+         "core": {
+            "limit": 60,
+            "remaining": 60,
+            "reset": 1581813352
+        },
+         "search": {
+            "limit": 10,
+            "remaining": 10,
+            "reset": 1581809812
+        }
+      }
+     */
+    @Test
+    public void correctRateLimitsAreSet() throws Exception {
 
+        HttpGet httpGet = new HttpGet(BASE_ENDPOINT + "/rate_limit");
+        httpGet.setConfig((localConfig));
+        response = httpClient.execute(httpGet);
+
+        RateLimit rateLimits = ResponseUtilities.unmarshallGeneric(response, RateLimit.class);
+        assertEquals(rateLimits.getCoreLimit(), 60, " core limit");
+        assertEquals(rateLimits.getCoreRemaining(), 60, "core remaining");
+        assertEquals(rateLimits.getSearchLimit(), "10", "search limit");
+    }
 }
