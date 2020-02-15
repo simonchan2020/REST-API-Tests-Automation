@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c65a533-6884-4017-9e3e-18ff56bed24a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ResponseUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ResponseUtilities.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ResponseHeaders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ResponseHeaders.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/WebApiAutomation.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ResponseUtilities.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ResponseUtilities.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/WebApiAutomation.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ResponseHeaders.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ResponseHeaders.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Status200.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Status200.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Status401.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Status401.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Status404.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Status404.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,11 +58,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResponseHeaders.contentTypeIsJSON" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ResponseHeaders.eTagIsNotNull" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WebApiAutomation" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ResponseHeaders" />
-      <option name="METHOD_NAME" value="contentTypeIsJSON" />
+      <option name="METHOD_NAME" value="eTagIsNotNull" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -79,11 +70,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResponseHeaders.eTagIsNotNull" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ResponseHeaders.eTagIsPresent" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WebApiAutomation" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ResponseHeaders" />
-      <option name="METHOD_NAME" value="eTagIsNotNull" />
+      <option name="METHOD_NAME" value="eTagIsPresent" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -117,10 +108,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.ResponseHeaders" />
+        <item itemvalue="TestNG.ResponseHeaders.eTagIsPresent" />
         <item itemvalue="TestNG.ResponseHeaders.eTagIsNotNull" />
         <item itemvalue="TestNG.ResponseHeaders.serverIsGitHub" />
         <item itemvalue="TestNG.Status200" />
-        <item itemvalue="TestNG.ResponseHeaders.contentTypeIsJSON" />
       </list>
     </recent_temporary>
   </component>
@@ -147,26 +138,26 @@
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state width="468" height="466" key="DebuggerActiveHint/0.23.1440.821@0.23.1440.821" timestamp="1581782309041" />
-    <state width="1440" height="160" key="GridCell.Tab.0.bottom" timestamp="1581788904584">
+    <state width="1440" height="160" key="GridCell.Tab.0.bottom" timestamp="1581797439187">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state width="1440" height="281" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581787027256" />
-    <state width="1440" height="160" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1581788904584" />
-    <state width="1440" height="160" key="GridCell.Tab.0.center" timestamp="1581788904583">
+    <state width="1440" height="160" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1581797439187" />
+    <state width="1440" height="160" key="GridCell.Tab.0.center" timestamp="1581797439186">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state width="1440" height="281" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581787027254" />
-    <state width="1440" height="160" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1581788904583" />
-    <state width="1440" height="160" key="GridCell.Tab.0.left" timestamp="1581788904582">
+    <state width="1440" height="160" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1581797439186" />
+    <state width="1440" height="160" key="GridCell.Tab.0.left" timestamp="1581797439185">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state width="1440" height="281" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581787027253" />
-    <state width="1440" height="160" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1581788904582" />
-    <state width="1440" height="160" key="GridCell.Tab.0.right" timestamp="1581788904584">
+    <state width="1440" height="160" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1581797439185" />
+    <state width="1440" height="160" key="GridCell.Tab.0.right" timestamp="1581797439186">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state width="1440" height="281" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581787027255" />
-    <state width="1440" height="160" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1581788904584" />
+    <state width="1440" height="160" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1581797439186" />
     <state width="1440" height="270" key="GridCell.Tab.1.bottom" timestamp="1581788873603">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
