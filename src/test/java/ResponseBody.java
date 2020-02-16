@@ -11,7 +11,7 @@ public class ResponseBody extends BaseTest {
     public void returnsCorrectLogin() throws Exception {
 
         HttpGet httpGet = new HttpGet(BASE_ENDPOINT + "/users/simonchan2020");
-        httpGet.setConfig((localConfig));
+        httpGet.setConfig(localConfig);
         response = httpClient.execute(httpGet);
 
         String jsonBody = EntityUtils.toString(response.getEntity());
@@ -25,7 +25,7 @@ public class ResponseBody extends BaseTest {
     public void returnsCorrectID() throws Exception {
 
         HttpGet httpGet = new HttpGet(BASE_ENDPOINT + "/users/simonchan2020");
-        httpGet.setConfig((localConfig));
+        httpGet.setConfig(localConfig);
         response = httpClient.execute(httpGet);
 
         String jsonBody = EntityUtils.toString(response.getEntity());
@@ -39,7 +39,7 @@ public class ResponseBody extends BaseTest {
     public void returnsCorrectType() throws Exception {
 
         HttpGet httpGet = new HttpGet(BASE_ENDPOINT + "/users/simonchan2020");
-        httpGet.setConfig((localConfig));
+        httpGet.setConfig(localConfig);
         response = httpClient.execute(httpGet);
 
         String jsonBody = EntityUtils.toString(response.getEntity());

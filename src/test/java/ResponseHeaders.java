@@ -24,7 +24,7 @@ public class ResponseHeaders extends BaseTest {
     @Test
     public void contentTypeIsJSON() throws IOException {
         HttpGet httpGet = new HttpGet(BASE_ENDPOINT);
-        httpGet.setConfig((localConfig));
+        httpGet.setConfig(localConfig);
         response = httpClient.execute(httpGet);
 
         //One way to get the contentType
@@ -40,7 +40,7 @@ public class ResponseHeaders extends BaseTest {
     @Test
     public void serverIsGitHub() throws IOException {
         HttpGet httpGet = new HttpGet(BASE_ENDPOINT);
-        httpGet.setConfig((localConfig));
+        httpGet.setConfig(localConfig);
         response = httpClient.execute(httpGet);
 
         String headerValue = ResponseUtilities.getHeaderInLambdasWay(response, "Server");
@@ -50,7 +50,7 @@ public class ResponseHeaders extends BaseTest {
     @Test
     public void eTagIsPresent() throws IOException {
         HttpGet httpGet = new HttpGet(BASE_ENDPOINT);
-        httpGet.setConfig((localConfig));
+        httpGet.setConfig(localConfig);
         response = httpClient.execute(httpGet);
 
         Boolean eTagIsPresent = ResponseUtilities.headerIsPresent(response, "ETag");

@@ -2,11 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c65a533-6884-4017-9e3e-18ff56bed24a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/entities/RateLimit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Credentials.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DeleteRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PostRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Status204.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ResponseBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ResponseBody.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ResponseBodyWithJackson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ResponseBodyWithJackson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ResponseUtilities.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ResponseUtilities.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ResponseHeaders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ResponseHeaders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Status200.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Status200.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Status401.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Status401.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Status404.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Status404.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ResponseBody.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ResponseBody.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/ResponseBodyWithJackson.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ResponseBodyWithJackson.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ResponseHeaders.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ResponseHeaders.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Status200.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Status200.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Status401.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Status401.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Status404.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Status404.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,11 +65,47 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="TestNG.ResponseBodyWithJackson">
-    <configuration name="ResponseBodyWithJackson" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.PostRequest.createRepoReturns201">
+    <configuration name="DeleteRequest.DeleteIsSuccessful" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WebApiAutomation" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ResponseBodyWithJackson" />
+      <option name="MAIN_CLASS_NAME" value="DeleteRequest" />
+      <option name="METHOD_NAME" value="DeleteIsSuccessful" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeleteRequest.deleteIsSuccessful" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebApiAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DeleteRequest" />
+      <option name="METHOD_NAME" value="deleteIsSuccessful" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostRequest.createRepoReturns201" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebApiAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PostRequest" />
+      <option name="METHOD_NAME" value="createRepoReturns201" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Status200" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebApiAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Status200" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -63,48 +113,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResponseBodyWithJackson.correctRateLimitsAreSet" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Status404" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WebApiAutomation" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ResponseBodyWithJackson" />
-      <option name="METHOD_NAME" value="correctRateLimitsAreSet" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ResponseBodyWithJackson.notFoundMessageIsCorrect" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="WebApiAutomation" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ResponseBodyWithJackson" />
-      <option name="METHOD_NAME" value="notFoundMessageIsCorrect" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ResponseBodyWithJackson.returnsCorrectID" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="WebApiAutomation" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ResponseBodyWithJackson" />
-      <option name="METHOD_NAME" value="returnsCorrectID" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ResponseBody.returnsCorrectLogin" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="WebApiAutomation" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ResponseBody" />
-      <option name="METHOD_NAME" value="returnsCorrectLogin" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="Status404" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -113,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ResponseBodyWithJackson" />
-        <item itemvalue="TestNG.ResponseBodyWithJackson.correctRateLimitsAreSet" />
-        <item itemvalue="TestNG.ResponseBody.returnsCorrectLogin" />
-        <item itemvalue="TestNG.ResponseBodyWithJackson.notFoundMessageIsCorrect" />
-        <item itemvalue="TestNG.ResponseBodyWithJackson.returnsCorrectID" />
+        <item itemvalue="TestNG.PostRequest.createRepoReturns201" />
+        <item itemvalue="TestNG.DeleteRequest.deleteIsSuccessful" />
+        <item itemvalue="TestNG.Status404" />
+        <item itemvalue="TestNG.Status200" />
+        <item itemvalue="TestNG.DeleteRequest.DeleteIsSuccessful" />
       </list>
     </recent_temporary>
   </component>
@@ -144,46 +157,46 @@
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state width="468" height="466" key="DebuggerActiveHint/0.23.1440.821@0.23.1440.821" timestamp="1581782309041" />
-    <state width="1440" height="222" key="GridCell.Tab.0.bottom" timestamp="1581810358346">
+    <state width="1440" height="255" key="GridCell.Tab.0.bottom" timestamp="1581818983982">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state width="1440" height="281" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581787027256" />
-    <state width="1440" height="222" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1581810358346" />
-    <state width="1440" height="222" key="GridCell.Tab.0.center" timestamp="1581810358344">
+    <state width="1440" height="255" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581817151281" />
+    <state width="1440" height="255" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1581818983982" />
+    <state width="1440" height="255" key="GridCell.Tab.0.center" timestamp="1581818983981">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state width="1440" height="281" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581787027254" />
-    <state width="1440" height="222" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1581810358344" />
-    <state width="1440" height="222" key="GridCell.Tab.0.left" timestamp="1581810358343">
+    <state width="1440" height="255" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581817151279" />
+    <state width="1440" height="255" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1581818983981" />
+    <state width="1440" height="255" key="GridCell.Tab.0.left" timestamp="1581818983980">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state width="1440" height="281" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581787027253" />
-    <state width="1440" height="222" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1581810358343" />
-    <state width="1440" height="222" key="GridCell.Tab.0.right" timestamp="1581810358345">
+    <state width="1440" height="255" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581817151278" />
+    <state width="1440" height="255" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1581818983980" />
+    <state width="1440" height="255" key="GridCell.Tab.0.right" timestamp="1581818983981">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state width="1440" height="281" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581787027255" />
-    <state width="1440" height="222" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1581810358345" />
-    <state width="1440" height="403" key="GridCell.Tab.1.bottom" timestamp="1581809890464">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state width="1440" height="255" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581817151280" />
+    <state width="1440" height="255" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1581818983981" />
+    <state width="1440" height="336" key="GridCell.Tab.1.bottom" timestamp="1581814377030">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="311" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581784136765" />
-    <state width="1440" height="403" key="GridCell.Tab.1.bottom/0.23.1440.821@0.23.1440.821" timestamp="1581809890464" />
-    <state width="1440" height="403" key="GridCell.Tab.1.center" timestamp="1581809890462">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state width="1440" height="336" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581814377030" />
+    <state width="1440" height="403" key="GridCell.Tab.1.bottom/0.23.1440.821@0.23.1440.821" timestamp="1581811543579" />
+    <state width="1440" height="336" key="GridCell.Tab.1.center" timestamp="1581814377029">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="311" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1581784136763" />
-    <state width="1440" height="403" key="GridCell.Tab.1.center/0.23.1440.821@0.23.1440.821" timestamp="1581809890462" />
-    <state width="1440" height="403" key="GridCell.Tab.1.left" timestamp="1581809890462">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state width="1440" height="336" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1581814377029" />
+    <state width="1440" height="403" key="GridCell.Tab.1.center/0.23.1440.821@0.23.1440.821" timestamp="1581811543578" />
+    <state width="1440" height="336" key="GridCell.Tab.1.left" timestamp="1581814377028">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="311" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1581784136762" />
-    <state width="1440" height="403" key="GridCell.Tab.1.left/0.23.1440.821@0.23.1440.821" timestamp="1581809890462" />
-    <state width="1440" height="403" key="GridCell.Tab.1.right" timestamp="1581809890463">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state width="1440" height="336" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1581814377028" />
+    <state width="1440" height="403" key="GridCell.Tab.1.left/0.23.1440.821@0.23.1440.821" timestamp="1581811543578" />
+    <state width="1440" height="336" key="GridCell.Tab.1.right" timestamp="1581814377029">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="311" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1581784136764" />
-    <state width="1440" height="403" key="GridCell.Tab.1.right/0.23.1440.821@0.23.1440.821" timestamp="1581809890463" />
+    <state width="1440" height="336" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1581814377029" />
+    <state width="1440" height="403" key="GridCell.Tab.1.right/0.23.1440.821@0.23.1440.821" timestamp="1581811543579" />
     <state x="258" y="112" key="Maven.ArtifactSearchDialog" timestamp="1581735497995">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -192,6 +205,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="208" y="31" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1581735807333" />
+    <state width="720" height="450" key="XDebugger.FullValuePopup" timestamp="1581812336846">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="720" height="450" key="XDebugger.FullValuePopup/0.0.1440.900@0.0.1440.900" timestamp="1581812336846" />
     <state x="432" y="350" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1581735301294">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

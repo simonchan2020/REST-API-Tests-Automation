@@ -5,7 +5,7 @@ import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 
 public class BaseTest {
-    protected static final String BASE_ENDPOINT = "http://api.github.com";
+    protected static final String BASE_ENDPOINT = "https://api.github.com";
     RequestConfig globalConfig = RequestConfig.custom()
             .setCookieSpec(CookieSpecs.DEFAULT)
             .build();

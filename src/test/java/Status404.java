@@ -22,7 +22,7 @@ public class Status404 extends BaseTest{
     @Test
     public void nonExistingUrlReturns404() throws IOException {
         HttpGet httpGet = new HttpGet(BASE_ENDPOINT + "/nonexistingurl");
-        httpGet.setConfig((localConfig));
+        httpGet.setConfig(localConfig);
         response = httpClient.execute(httpGet);
 
         int actualStatus = response.getStatusLine().getStatusCode();

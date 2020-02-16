@@ -22,7 +22,7 @@ public class ResponseBodyWithJackson extends BaseTest {
     public void returnsCorrectID() throws Exception {
 
         HttpGet httpGet = new HttpGet(BASE_ENDPOINT + "/users/simonchan2020");
-        httpGet.setConfig((localConfig));
+        httpGet.setConfig(localConfig);
         response = httpClient.execute(httpGet);
 
         User user = ResponseUtilities.unmarshall(response, User.class);
@@ -33,7 +33,7 @@ public class ResponseBodyWithJackson extends BaseTest {
     public void notFoundMessageIsCorrect() throws Exception {
 
         HttpGet httpGet = new HttpGet(BASE_ENDPOINT + "/nonexistingurl");
-        httpGet.setConfig((localConfig));
+        httpGet.setConfig(localConfig);
         response = httpClient.execute(httpGet);
 
         NotFound notFoundMessage = ResponseUtilities.unmarshallGeneric(response, NotFound.class);
@@ -59,7 +59,7 @@ public class ResponseBodyWithJackson extends BaseTest {
     public void correctRateLimitsAreSet() throws Exception {
 
         HttpGet httpGet = new HttpGet(BASE_ENDPOINT + "/rate_limit");
-        httpGet.setConfig((localConfig));
+        httpGet.setConfig(localConfig);
         response = httpClient.execute(httpGet);
 
         RateLimit rateLimits = ResponseUtilities.unmarshallGeneric(response, RateLimit.class);

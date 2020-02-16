@@ -32,7 +32,7 @@ public class Status401 extends BaseTest{
     @Test(dataProvider = "endpoints")
     public void userReturns401(String endpoint) throws IOException {
         HttpGet httpGet = new HttpGet(BASE_ENDPOINT + endpoint);
-        httpGet.setConfig((localConfig));
+        httpGet.setConfig(localConfig);
         response = httpClient.execute(httpGet);
 
         int actualStatus = response.getStatusLine().getStatusCode();

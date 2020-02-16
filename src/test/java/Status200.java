@@ -23,7 +23,7 @@ public class Status200 extends BaseTest {
     @Test
     public void baseUrlReturns200() throws IOException {
         HttpGet httpGet = new HttpGet(BASE_ENDPOINT);
-        httpGet.setConfig((localConfig));
+        httpGet.setConfig(localConfig);
         response = httpClient.execute(httpGet);
 
         int actualStatus = response.getStatusLine().getStatusCode();
@@ -33,7 +33,7 @@ public class Status200 extends BaseTest {
     @Test
     public void searchReturns200() throws IOException {
         HttpGet httpGet = new HttpGet(BASE_ENDPOINT + "/search/repositories?q=java");
-        httpGet.setConfig((localConfig));
+        httpGet.setConfig(localConfig);
         response = httpClient.execute(httpGet);
 
         int actualStatus = response.getStatusLine().getStatusCode();
@@ -43,7 +43,7 @@ public class Status200 extends BaseTest {
     @Test
     public void rateLimitReturns200() throws IOException {
         HttpGet httpGet = new HttpGet(BASE_ENDPOINT + "/rate_limit");
-        httpGet.setConfig((localConfig));
+        httpGet.setConfig(localConfig);
         HttpResponse response = httpClient.execute(httpGet);
 
         int actualStatus = response.getStatusLine().getStatusCode();
